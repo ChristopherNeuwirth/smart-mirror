@@ -1,0 +1,30 @@
+{
+  "name": "mirror-api",
+  "version": "0.0.1",
+  "description": "smart mirror api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherNeuwirth/smart-mirror.git"
+  },
+  "keywords": [
+    "node",
+    "hapijs",
+    "api",
+    "rest",
+    "smart",
+    "mirror"
+  ],
+  "author": "Christopher Neuwirth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherNeuwirth/smart-mirror/issues"
+  },
+  "homepage": "https://github.com/ChristopherNeuwirth/smart-mirror#readme",
+  "dependencies": {
+    "hapi": "^17.7.0"
+  }
+}
