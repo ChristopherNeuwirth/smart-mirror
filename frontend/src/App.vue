@@ -3,10 +3,10 @@
     <v-content>
       <v-container fluid>
         <v-layout row wrap>
-          <v-flex xs6>
+          <v-flex xs4>
 
           </v-flex>
-          <v-flex xs6>
+          <v-flex xs8>
             <smTime></smTime>
           </v-flex>
         </v-layout>
