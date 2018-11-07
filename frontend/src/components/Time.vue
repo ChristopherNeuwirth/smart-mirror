@@ -5,13 +5,15 @@
       <span class="time-date__time-indicator">h</span>
     </div>
     <div class="time-date__date">
-      Donnerstag, 30. November 2018
+      <span>{{ new Date() | moment("dddd, Do MMMM YYYY") }}</span>
     </div>
   </div>
 </template>
 
 <script>
 import Clock from 'vue-digital-clock'
+
+// TODO: Make new Date() called recursivly so its keeps up to date
 
 export default {
   data: () => ({}),

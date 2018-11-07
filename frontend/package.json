@@ -11,6 +11,7 @@
     "@babel/polyfill": "^7.0.0-rc.1",
     "vue": "^2.5.17",
     "vue-digital-clock": "^1.5.1",
+    "vue-moment": "^4.0.0",
     "vuetify": "^1.3.0"
   },
   "devDependencies": {
