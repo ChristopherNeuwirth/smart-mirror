@@ -1,6 +1,7 @@
 <template>
-  <div>
-    10:30
+  <div class="text-xs-right">
+    <p>10:30h</p>
+    <p>Donnerstag, 30. Oktober 2018</p>
   </div>
 </template>
 
