@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="grid grid--direction-row">
+    <div class="grid__child grid__child--size-12">
+      <h2>
+        {{ today | date: 'EEEE' }} <br />
+        {{ today | date: 'd MMMM' }}
+      </h2>
+
+      <h1>
+        {{ today | date: 'HH:mm' }}
+      </h1>
+      <!-- <h3>
+        Du brauchst aktuell TIME bis in DESTINATION.
+      </h3> -->
+    </div>
+  </div>
+</div>

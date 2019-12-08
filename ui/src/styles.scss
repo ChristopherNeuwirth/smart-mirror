@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import './style/base/global.scss';
+@import './style/layout/index.scss';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+// Map Example
+@import '~mapbox-gl/dist/mapbox-gl.css';
+@import '~@mapbox/mapbox-gl-geocoder/lib/mapbox-gl-geocoder.css';
