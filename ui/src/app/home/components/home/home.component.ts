@@ -10,5 +10,9 @@ export class HomeComponent implements OnInit {
 
   today: number = Date.now();
 
-  ngOnInit() {}
+  ngOnInit() {
+    setInterval(() => {
+      this.today = Date.now();
+    }, 1000);
+  }
 }

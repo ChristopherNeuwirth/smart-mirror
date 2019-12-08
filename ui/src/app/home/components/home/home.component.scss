@@ -1,3 +1,41 @@
+@import '../../../../style/mixins/px-rem-converter.scss';
+@import '../../../../style/base/colors.scss';
+
 :host {
+  margin-top: rem(70px);
   display: block;
+}
+
+.date {
+  font-size: rem(34px);
+  line-height: rem(35px);
+  font-weight: 300;
+  margin-bottom: rem(40px);
+}
+
+.time {
+  font-size: rem(69px);
+  font-weight: 300;
+}
+
+.blinking {
+  animation: blinkingText 1s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: $white;
+  }
+  49% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  79% {
+    color: transparent;
+  }
+  100% {
+    color: $white;
+  }
 }

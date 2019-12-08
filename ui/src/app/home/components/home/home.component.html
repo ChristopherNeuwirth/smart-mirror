@@ -1,14 +1,12 @@
 <div class="container">
   <div class="grid grid--direction-row">
     <div class="grid__child grid__child--size-12">
-      <h2>
+      <div class="date">
         {{ today | date: 'EEEE' }} <br />
-        {{ today | date: 'd MMMM' }}
-      </h2>
+        {{ today | date: 'd. MMMM' }}
+      </div>
 
-      <h1>
-        {{ today | date: 'HH:mm' }}
-      </h1>
+      <div class="time">{{ today | date: 'HH' }}<span class="blinking">:</span>{{ today | date: 'mm' }}</div>
       <!-- <h3>
         Du brauchst aktuell TIME bis in DESTINATION.
       </h3> -->
