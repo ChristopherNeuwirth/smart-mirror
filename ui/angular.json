@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "starter-ui": {
+    "smart-mirror": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/starter-ui",
+            "outputPath": "dist/smart-mirror",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -57,18 +57,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "starter-ui:build"
+            "browserTarget": "smart-mirror:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "starter-ui:build:production"
+              "browserTarget": "smart-mirror:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "starter-ui:build"
+            "browserTarget": "smart-mirror:build"
           }
         },
         "test": {
@@ -98,16 +98,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "starter-ui:serve"
+            "devServerTarget": "smart-mirror:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "starter-ui:serve:production"
+              "devServerTarget": "smart-mirror:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "starter-ui"
+  "defaultProject": "smart-mirror"
 }
